@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "axios": "^0.16.2",
     "serverless-offline": "^3.16.0"
   }
 }
