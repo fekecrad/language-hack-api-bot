@@ -58,7 +58,13 @@ provider:
 #    - exclude-me-dir/**
 
 functions:
-  hello:
+  ai:
+    handler: handler.ai
+    events:
+      - http:
+          path: ai
+          method: get
+  analyze:
     handler: handler.analyze
 
 #    The following are a few example events you can configure

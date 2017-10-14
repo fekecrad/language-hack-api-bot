@@ -1,6 +1,8 @@
 {
   "dependencies": {
+    "apiai": "^4.0.3",
     "axios": "^0.16.2",
+    "dateformat": "^3.0.2",
     "serverless-offline": "^3.16.0"
   }
 }
